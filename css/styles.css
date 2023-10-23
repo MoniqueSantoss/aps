@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  align-items: center;
+  overflow-x: hidden;
+}
+
+  *,
+  *::before,
+  *::after {
+    box-sizing:content-box;
+  }
+
+#informacoes {
+  width: 100%;
+  align-items: center;
+}
+
+#weather-data {
+  background-color:gray;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2rem;
+  color: #fdfdfd;
+  border-radius: 1rem;
+  width: 75%;
+  float: left;
+  margin: 3% 3% 3% 12%;
+}
+
+#weather-data h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+#weather-data h2 i {
+  font-size: 1rem;
+}
+
+i {
+  margin-right:5px;
+}
+
+#temperature {
+  font-size: 24px;
+  text-align: center;
+}
+
+#description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0;
+}
+
+#description {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+#details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#details-container #umidity {
+  border-right: 1px solid #fff;
+  margin: 0.6rem;
+  padding: 0.6rem;
+}
+
+#details-container #wind {
+ margin: 0.6rem;
+}
+
+html, body, #map {
+    height: 100%;
+    width: 100vw;
+}
+
+#logo{
+  width: 50px;
+  height: 40px;
+  margin:0px 0px 0px 10px;
+}
+
+#cuidados{
+  width: 50%;
+}
+
+#numeroEmergencia {
+  width: 24%;
+  height: 400px;
+}
+
+#imagens {
+text-align: center;
+padding: 1%;
+}
+
+#textoInicio {
+  text-align: justify;
+  padding: 1% 13% 0 13%;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto do footer */
+    text-align: center;
+    padding: 10px 0;
+}
+
+#Dash{
+  margin: 4px;
+  text-align: center;
+}
+
+button.navbar-toggler {
+  margin-right: 2%;
+}
+
+@media (max-width: 720px) {
+  #numeroEmergencia {
+  width: 75%;
+  height: 300px;
+  padding-top: 1%;
+  }
+
+  #cuidados {
+  width: 75%;
+  }
+}
+
+
